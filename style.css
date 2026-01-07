@@ -1,0 +1,128 @@
+/* Grundlegende Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar Anpassungen */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Tabelle Anpassungen */
+#co2-table_wrapper {
+    overflow-x: auto;
+}
+
+#co2-table {
+    font-size: 0.95rem;
+}
+
+#co2-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+#co2-table th:hover {
+    background-color: #e9ecef;
+}
+
+#co2-table tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Trend Spalte */
+.trend-up {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.trend-down {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.trend-stable {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    #co2-table {
+        font-size: 0.85rem;
+    }
+    
+    .card-header h5 {
+        font-size: 1rem;
+    }
+}
+
+/* RTL Unterstützung */
+[dir="rtl"] .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] .me-1 { margin-left: 0.25rem !important; margin-right: 0 !important; }
+[dir="rtl"] .me-2 { margin-left: 0.5rem !important; margin-right: 0 !important; }
+[dir="rtl"] .me-3 { margin-left: 1rem !important; margin-right: 0 !important; }
+[dir="rtl"] .ms-auto { margin-right: auto !important; margin-left: 0 !important; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+footer h5 {
+    color: #20c997;
+    margin-bottom: 1rem;
+}
+
+/* Card Shadow */
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
