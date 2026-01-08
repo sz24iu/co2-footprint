@@ -5,8 +5,6 @@ A website which shows the CO2-Footprint of various countries and companies.
 ## 📋 Projektbeschreibung
 Webanwendung zur Visualisierung von CO₂-Emissionsdaten nach Ländern und Unternehmen.
 
-Test
-
 ## 🚀 Live Demo
 [![GitHub Pages](https://img.shields.io/badge/Live-Demo-brightgreen)](https://sz24iu.github.io/co2-footprint/)
 
