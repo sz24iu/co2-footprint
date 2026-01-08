@@ -16,7 +16,7 @@ Webanwendung zur Visualisierung von CO₂-Emissionsdaten nach Ländern und Unter
 - Font Awesome Icons
 
 ## ✨ Features
-- ✅ Responsive Design (Desktop, Tablet, Mobile)
+- ✅ Responsive Design (Desktop, Tablet, Mobile) test
 - ✅ RTL/LTR Unterstützung
 - ✅ Sortierbare und filterbare Tabelle
 - ✅ CSV-Export
