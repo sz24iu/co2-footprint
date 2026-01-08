@@ -18,13 +18,15 @@ main {
     font-size: 1.5rem;
 }
 
-/* Tabelle Anpassungen */
-#co2-table_wrapper {
+/* Tabelle Anpassungen für DataTables 2.x */
+.dataTables_wrapper {
     overflow-x: auto;
 }
 
 #co2-table {
     font-size: 0.95rem;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 #co2-table th {
@@ -32,10 +34,18 @@ main {
     font-weight: 600;
     cursor: pointer;
     user-select: none;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dee2e6;
 }
 
 #co2-table th:hover {
     background-color: #e9ecef;
+}
+
+#co2-table td {
+    padding: 10px 15px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
 }
 
 #co2-table tr:hover {
@@ -58,6 +68,37 @@ main {
     font-weight: bold;
 }
 
+/* DataTables Controls Styling */
+.dataTables_length,
+.dataTables_filter {
+    margin-bottom: 15px;
+}
+
+.dataTables_filter input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 6px 12px;
+    margin: 0 3px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.dataTables_paginate .paginate_button.current {
+    background-color: #0d6efd;
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
 /* Responsive Anpassungen */
 @media (max-width: 768px) {
     .navbar-nav {
@@ -75,6 +116,18 @@ main {
     .card-header h5 {
         font-size: 1rem;
     }
+    
+    .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_filter {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .dataTables_wrapper .dataTables_filter input {
+        width: 100%;
+        margin-top: 5px;
+    }
 }
 
 /* RTL Unterstützung */
@@ -87,6 +140,14 @@ main {
 [dir="rtl"] .me-2 { margin-left: 0.5rem !important; margin-right: 0 !important; }
 [dir="rtl"] .me-3 { margin-left: 1rem !important; margin-right: 0 !important; }
 [dir="rtl"] .ms-auto { margin-right: auto !important; margin-left: 0 !important; }
+
+[dir="rtl"] .input-group-text {
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+[dir="rtl"] .input-group > .form-control {
+    border-radius: 0.375rem 0 0 0.375rem;
+}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -125,4 +186,72 @@ footer h5 {
 
 .card:hover {
     transform: translateY(-2px);
+}
+
+/* DataTables Info Anpassung */
+.dataTables_info {
+    padding-top: 10px;
+    color: #6c757d;
+}
+
+/* Highlight für Suchtreffer */
+#co2-table td.highlight {
+    background-color: #fff3cd !important;
+    font-weight: bold;
+}
+
+/* Responsive Tabellenanzeige */
+@media screen and (max-width: 767px) {
+    #co2-table thead {
+        display: none;
+    }
+    
+    #co2-table tr {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    #co2-table td {
+        display: block;
+        text-align: right;
+        padding: 8px 10px;
+        border: none;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    
+    #co2-table td:last-child {
+        border-bottom: none;
+    }
+    
+    #co2-table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        color: #495057;
+    }
+}
+
+/* Druckoptimierung */
+@media print {
+    .navbar, 
+    .card-header, 
+    .alert, 
+    footer,
+    .dataTables_length,
+    .dataTables_filter,
+    .dataTables_paginate {
+        display: none !important;
+    }
+    
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    #co2-table {
+        border: 1px solid #000 !important;
+    }
 }
