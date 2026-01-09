@@ -12,6 +12,29 @@ main {
     flex: 1;
 }
 
+/* ==================== */
+/* LOGO STYLING (minimal) */
+/* ==================== */
+
+/* Logo responsive machen */
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+/* RTL-Support: Logo positionieren */
+[dir="rtl"] .navbar-brand img {
+    margin-left: 0.5rem;
+    margin-right: 0 !important;
+}
+
+/* Mobile Anpassung */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 32px;
+    }
+}
+
 /* Navbar Anpassungen */
 .navbar-brand {
     font-weight: 700;
