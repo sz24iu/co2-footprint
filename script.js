@@ -9,8 +9,7 @@ const co2Data = [
         branche: "Automobil", 
         emissionen: 45.2, 
         jahr: 2023, 
-        trend: "down",
-        details: "Reduktion durch E-Mobilitätsinitiativen"
+        trend: "down"
     },
     { 
         land: "Deutschland", 
@@ -18,8 +17,7 @@ const co2Data = [
         branche: "Energie", 
         emissionen: 78.5, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Kohleausstieg bis 2030 geplant"
+        trend: "stable"
     },
     { 
         land: "Deutschland", 
@@ -27,8 +25,7 @@ const co2Data = [
         branche: "Chemie", 
         emissionen: 22.8, 
         jahr: 2023, 
-        trend: "down",
-        details: "Investitionen in grüne Chemie"
+        trend: "down"
     },
     
     // USA
@@ -38,8 +35,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 120.3, 
         jahr: 2023, 
-        trend: "up",
-        details: "Steigende Förderung in Permian Basin"
+        trend: "up"
     },
     { 
         land: "USA", 
@@ -47,8 +43,7 @@ const co2Data = [
         branche: "Automobil", 
         emissionen: 52.7, 
         jahr: 2023, 
-        trend: "down",
-        details: "Umstellung auf Elektrofahrzeuge"
+        trend: "down"
     },
     { 
         land: "USA", 
@@ -56,8 +51,7 @@ const co2Data = [
         branche: "Energie", 
         emissionen: 88.9, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Mix aus fossilen und erneuerbaren Energien"
+        trend: "stable"
     },
     
     // China
@@ -67,8 +61,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 215.8, 
         jahr: 2023, 
-        trend: "up",
-        details: "Wachstum der petrochemischen Industrie"
+        trend: "up"
     },
     { 
         land: "China", 
@@ -76,8 +69,7 @@ const co2Data = [
         branche: "Energie", 
         emissionen: 189.4, 
         jahr: 2023, 
-        trend: "up",
-        details: "Kohlelastiger Energiemix"
+        trend: "up"
     },
     { 
         land: "China", 
@@ -85,8 +77,7 @@ const co2Data = [
         branche: "Automobil", 
         emissionen: 41.6, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Wachstum im E-Auto-Sektor"
+        trend: "stable"
     },
     
     // Weitere Länder
@@ -96,8 +87,7 @@ const co2Data = [
         branche: "Automobil", 
         emissionen: 38.9, 
         jahr: 2023, 
-        trend: "down",
-        details: "Wasserstoff-Initiativen"
+        trend: "down"
     },
     { 
         land: "Japan", 
@@ -105,8 +95,7 @@ const co2Data = [
         branche: "Energie", 
         emissionen: 67.2, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Wiederinbetriebnahme von Atomkraftwerken"
+        trend: "stable"
     },
     { 
         land: "Indien", 
@@ -114,8 +103,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 92.1, 
         jahr: 2023, 
-        trend: "up",
-        details: "Expansion der Raffineriekapazitäten"
+        trend: "up"
     },
     { 
         land: "Frankreich", 
@@ -123,8 +111,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 58.3, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Investitionen in erneuerbare Energien"
+        trend: "stable"
     },
     { 
         land: "Großbritannien", 
@@ -132,8 +119,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 63.7, 
         jahr: 2023, 
-        trend: "down",
-        details: "Netto-Null-Strategie 2050"
+        trend: "down"
     },
     { 
         land: "Niederlande", 
@@ -141,8 +127,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 71.5, 
         jahr: 2023, 
-        trend: "stable",
-        details: "CO₂-Abscheidungsprojekte"
+        trend: "stable"
     },
     { 
         land: "Südkorea", 
@@ -150,8 +135,7 @@ const co2Data = [
         branche: "Automobil", 
         emissionen: 34.8, 
         jahr: 2023, 
-        trend: "down",
-        details: "E-Mobilitäts-Offensive"
+        trend: "down"
     },
     { 
         land: "Brasilien", 
@@ -159,8 +143,7 @@ const co2Data = [
         branche: "Öl & Gas", 
         emissionen: 49.6, 
         jahr: 2023, 
-        trend: "up",
-        details: "Offshore-Förderung im Amazonasgebiet"
+        trend: "up"
     },
     { 
         land: "Australien", 
@@ -168,8 +151,7 @@ const co2Data = [
         branche: "Bergbau", 
         emissionen: 41.2, 
         jahr: 2023, 
-        trend: "stable",
-        details: "Emissionen aus Eisenore-Abbau"
+        trend: "stable"
     }
 ];
 
@@ -186,16 +168,13 @@ function toggleRTL() {
     
     // Button-Text aktualisieren
     const button = document.getElementById('rtl-btn');
-    const icon = button.querySelector('i');
     
     if (newDir === 'rtl') {
         button.innerHTML = '<i class="fas fa-exchange-alt me-1"></i> LTR';
         button.title = "Zu Links-nach-Rechts wechseln";
-        showNotification('Rechts-nach-Links Modus aktiviert', 'info');
     } else {
         button.innerHTML = '<i class="fas fa-exchange-alt me-1"></i> RTL';
         button.title = "Zu Rechts-nach-Links wechseln";
-        showNotification('Links-nach-Rechts Modus aktiviert', 'info');
     }
     
     // DataTables Tabelle neu zeichnen für korrekte Darstellung
@@ -259,20 +238,17 @@ function initializeTable() {
                         'up': {
                             icon: 'fa-arrow-up',
                             css: 'trend-up',
-                            text: 'Steigend',
-                            color: '#dc3545'
+                            text: 'Steigend'
                         },
                         'down': {
                             icon: 'fa-arrow-down',
                             css: 'trend-down',
-                            text: 'Fallend',
-                            color: '#28a745'
+                            text: 'Fallend'
                         },
                         'stable': {
                             icon: 'fa-minus',
                             css: 'trend-stable',
-                            text: 'Stabil',
-                            color: '#6c757d'
+                            text: 'Stabil'
                         }
                     };
                     
@@ -314,25 +290,9 @@ function initializeTable() {
             bottomEnd: 'paging'
         },
         
-        // Such-Optionen
-        search: {
-            return: true
-        },
-        
-        // Spalten-Sortierung aktivieren
-        ordering: true,
-        
         // Initialisierung Callback
         initComplete: function() {
             console.log('DataTables 2.x initialisiert');
-            
-            // Suchfeld Event-Listener
-            const searchInput = document.getElementById('searchInput');
-            if (searchInput) {
-                searchInput.addEventListener('input', function(e) {
-                    table.search(e.target.value).draw();
-                });
-            }
         },
         
         // Zeilen-Callback für zusätzliche Attribute
@@ -344,10 +304,6 @@ function initializeTable() {
             $(row).find('td:eq(3)').attr('data-label', 'Emissionen (Mt CO₂)');
             $(row).find('td:eq(4)').attr('data-label', 'Jahr');
             $(row).find('td:eq(5)').attr('data-label', 'Trend');
-            
-            // Tooltip für Details
-            $(row).attr('title', data.details || 'Keine weiteren Details verfügbar');
-            $(row).attr('data-bs-toggle', 'tooltip');
         }
     });
     
@@ -364,17 +320,14 @@ function exportToCSV() {
     let csvContent = "data:text/csv;charset=utf-8,";
     
     // Header
-    csvContent += "Land,Unternehmen,Branche,Emissionen (Mt CO₂),Jahr,Trend,Details\n";
+    csvContent += "Land,Unternehmen,Branche,Emissionen (Mt CO₂),Jahr,Trend\n";
     
     // Daten
     co2Data.forEach(row => {
         const trendText = row.trend === 'up' ? 'Steigend' : 
                          row.trend === 'down' ? 'Fallend' : 'Stabil';
         
-        // CSV-sichere Formatierung (Anführungszeichen escapen)
-        const safeDetails = (row.details || '').replace(/"/g, '""');
-        
-        csvContent += `"${row.land}","${row.unternehmen}","${row.branche}",${row.emissionen},${row.jahr},"${trendText}","${safeDetails}"\n`;
+        csvContent += `${row.land},${row.unternehmen},${row.branche},${row.emissionen},${row.jahr},${trendText}\n`;
     });
     
     // Download
@@ -387,6 +340,7 @@ function exportToCSV() {
     link.click();
     document.body.removeChild(link);
     
+    // Benachrichtigung
     showNotification('CSV-Export erfolgreich gestartet', 'success');
 }
 
@@ -420,7 +374,7 @@ function escapeHTML(text) {
 // 6. HILFSFUNKTIONEN
 // ============================================
 function showNotification(message, type = 'info') {
-    // Einfache Notification (kann durch Toast ersetzt werden)
+    // Einfache Notification
     const alertClass = {
         'success': 'alert-success',
         'error': 'alert-danger',
@@ -431,7 +385,7 @@ function showNotification(message, type = 'info') {
     const notification = document.createElement('div');
     notification.className = `alert ${alertClass} alert-dismissible fade show position-fixed`;
     notification.style.cssText = `
-        top: 20px;
+        top: 80px;
         right: 20px;
         z-index: 1050;
         min-width: 300px;
@@ -451,25 +405,49 @@ function showNotification(message, type = 'info') {
     }, 5000);
 }
 
-function resetAllFilters() {
-    if (window.dataTableInstance) {
-        window.dataTableInstance.search('').draw();
-        document.getElementById('searchInput').value = '';
-        showNotification('Alle Filter wurden zurückgesetzt', 'success');
-    }
+// ============================================
+// 7. NAVIGATION HIGHLIGHTING
+// ============================================
+function setupNavigation() {
+    // Aktiven Navigationspunkt setzen basierend auf Scroll-Position
+    const sections = document.querySelectorAll('section, main, footer');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    window.addEventListener('scroll', function() {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= (sectionTop - 150)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}` || 
+                (current === '' && link.getAttribute('href') === '#top')) {
+                link.classList.add('active');
+            }
+        });
+    });
 }
 
 // ============================================
-// 7. EVENT LISTENER UND INITIALISIERUNG
+// 8. EVENT LISTENER UND INITIALISIERUNG
 // ============================================
 document.addEventListener('DOMContentLoaded', function() {
     console.log('CO₂ Footprint App wird geladen...');
     
     try {
-        // 1. DataTables initialisieren
+        // 1. Navigation einrichten
+        setupNavigation();
+        
+        // 2. DataTables initialisieren
         initializeTable();
         
-        // 2. Event-Listener für Suchfeld (falls es existiert)
+        // 3. Event-Listener für Suchfeld
         const searchInput = document.getElementById('searchInput');
         if (searchInput) {
             searchInput.addEventListener('input', function(e) {
@@ -480,23 +458,23 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
         
-        // 3. Event-Listener für Filter-Reset
+        // 4. Event-Listener für Filter-Reset
         const resetBtn = document.getElementById('resetFilters');
         if (resetBtn) {
-            resetBtn.addEventListener('click', resetAllFilters);
+            resetBtn.addEventListener('click', function() {
+                if (window.dataTableInstance) {
+                    window.dataTableInstance.search('').draw();
+                    document.getElementById('searchInput').value = '';
+                    showNotification('Alle Filter wurden zurückgesetzt', 'success');
+                }
+            });
         }
         
-        // 4. Event-Listener für Export
+        // 5. Event-Listener für CSV Export
         const exportBtn = document.getElementById('exportBtn');
         if (exportBtn) {
             exportBtn.addEventListener('click', exportToCSV);
         }
-        
-        // 5. Bootstrap Tooltips aktivieren
-        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-        tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl);
-        });
         
         // 6. Sicherheits-Check: Alle Benutzereingaben escapen
         document.querySelectorAll('input, textarea').forEach(input => {
@@ -505,7 +483,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         console.log(`✅ App erfolgreich initialisiert mit ${co2Data.length} Datensätzen`);
-        showNotification('CO₂ Footprint Tracker geladen', 'success');
         
     } catch (error) {
         console.error('❌ Fehler bei der Initialisierung:', error);
@@ -531,9 +508,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ============================================
-// 8. GLOBALE FUNKTIONEN FÜR EVENT-HANDLER
+// 9. GLOBALE FUNKTIONEN FÜR EVENT-HANDLER
 // ============================================
-// Wichtig: Diese müssen global verfügbar sein für onclick-Attribute
 window.toggleRTL = toggleRTL;
 window.exportToCSV = exportToCSV;
-window.resetAllFilters = resetAllFilters;

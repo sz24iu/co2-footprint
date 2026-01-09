@@ -21,17 +21,13 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <!-- LOGO EINBINDUNG (vereinfacht) -->
-        <a class="navbar-brand" href="#">
-            <img src="assets/logo.png" 
-                 alt="CO₂ Footprint Tracker Logo"
-                 height="40" 
-                 class="me-2">
-            CO₂ Footprint Tracker
-        </a>
+    <!-- Navigation - IMMER SICHTBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#top">
+                <img src="assets/logo.png" alt="CO₂ Footprint Tracker Logo" height="30" class="me-2">
+                CO₂ Tracker
+            </a>
             
             <!-- RTL/LTR Umschalter -->
             <button class="btn btn-outline-light btn-sm me-3" id="rtl-btn" onclick="toggleRTL()">
@@ -45,32 +41,36 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fas fa-home me-1"></i> Start</a>
+                        <a class="nav-link active" href="#top"><i class="fas fa-home me-1"></i> Start</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#data"><i class="fas fa-table me-1"></i> Daten</a>
+                        <a class="nav-link" href="#data-section"><i class="fas fa-table me-1"></i> Daten</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about"><i class="fas fa-info-circle me-1"></i> Über</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact"><i class="fas fa-envelope me-1"></i> Kontakt</a>
+                        <a class="nav-link" href="#impressum"><i class="fas fa-info-circle me-1"></i> Impressum</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hauptinhalt -->
-    <main class="container my-5">
-        <!-- Header-Bereich -->
+    <!-- Hauptinhalt mit Padding für fixed Navbar -->
+    <main class="container my-5" style="padding-top: 80px;" id="top">
+        <!-- Header-Bereich mit Logo -->
         <div class="row mb-5">
-            <div class="col-12 text-center">
-                <h1 class="display-4 text-success mb-3">
-                    <i class="fas fa-globe-europe me-3"></i>
-                    CO₂ Emissionsdaten weltweit
-                </h1>
-                <p class="lead">Echtzeit-Überwachung der CO₂-Emissionen nach Ländern und Unternehmen</p>
+            <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center mb-3">
+                    <img src="assets/logo.png" 
+                         alt="CO₂ Footprint Logo" 
+                         height="80" 
+                         class="me-3 header-logo">
+                    <div>
+                        <h1 class="display-4 text-success mb-1">
+                            CO₂ Emissionsdaten weltweit
+                        </h1>
+                        <p class="lead text-muted">Echtzeit-Überwachung der CO₂-Emissionen nach Ländern und Unternehmen</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -88,14 +88,14 @@
                         <i class="fas fa-redo me-1"></i> Filter zurücksetzen
                     </button>
                     <button class="btn btn-outline-info" id="exportBtn">
-                        <i class="fas fa-download me-1"></i> Daten exportieren
+                        <i class="fas fa-download me-1"></i> CSV Export
                     </button>
                 </div>
             </div>
         </div>
 
-        <!-- Tabelle -->
-        <div class="row">
+        <!-- Tabelle mit Sprunganker -->
+        <div class="row" id="data-section">
             <div class="col-12">
                 <div class="card shadow">
                     <div class="card-header bg-light">
@@ -136,8 +136,8 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4 mt-5">
+    <!-- Footer mit Impressum/Rechtlichen Hinweisen -->
+    <footer class="bg-dark text-white py-4" id="impressum">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -149,13 +149,16 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h5>Kontakt</h5>
-                    <p>
-                        <i class="fas fa-envelope me-2"></i> info@co2-tracker.org<br>
-                        <i class="fas fa-phone me-2"></i> +49 123 456 789
-                    </p>
+                    <h5>Impressum</h5>
                     <p class="small">
-                        &copy; 2023 CO₂ Footprint Tracker. Alle Rechte vorbehalten.
+                        <strong>Verantwortlich:</strong> Muster GmbH<br>
+                        <strong>Adresse:</strong> Musterstraße 123, 10115 Berlin<br>
+                        <strong>Kontakt:</strong> info@co2-tracker.org | Tel: +49 123 456 789<br>
+                        <strong>USt-IdNr.:</strong> DE123456789
+                    </p>
+                    <p class="small mt-3">
+                        &copy; 2023 CO₂ Footprint Tracker. Alle Rechte vorbehalten.<br>
+                        <a href="#top" class="text-white-50">Nach oben</a>
                     </p>
                 </div>
             </div>
