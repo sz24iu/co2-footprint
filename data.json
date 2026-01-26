@@ -1,0 +1,618 @@
+[
+    {
+        "land": "Australien",
+        "unternehmen": "BHP",
+        "branche": "Bergbau",
+        "emissionen": 43.8,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Australien",
+        "unternehmen": "BHP",
+        "branche": "Bergbau",
+        "emissionen": 42.5,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Australien",
+        "unternehmen": "BHP",
+        "branche": "Bergbau",
+        "emissionen": 41.8,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Australien",
+        "unternehmen": "BHP",
+        "branche": "Bergbau",
+        "emissionen": 41.2,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "Brasilien",
+        "unternehmen": "Petrobras",
+        "branche": "Öl & Gas",
+        "emissionen": 44.2,
+        "jahr": 2020,
+        "trend": "down"
+    },
+    {
+        "land": "Brasilien",
+        "unternehmen": "Petrobras",
+        "branche": "Öl & Gas",
+        "emissionen": 46.8,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "Brasilien",
+        "unternehmen": "Petrobras",
+        "branche": "Öl & Gas",
+        "emissionen": 48.1,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "Brasilien",
+        "unternehmen": "Petrobras",
+        "branche": "Öl & Gas",
+        "emissionen": 49.6,
+        "jahr": 2023,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "SAIC Motor",
+        "branche": "Automobil",
+        "emissionen": 38.2,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "SAIC Motor",
+        "branche": "Automobil",
+        "emissionen": 39.8,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "SAIC Motor",
+        "branche": "Automobil",
+        "emissionen": 40.7,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "SAIC Motor",
+        "branche": "Automobil",
+        "emissionen": 41.6,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "China",
+        "unternehmen": "Sinopec",
+        "branche": "Öl & Gas",
+        "emissionen": 205.2,
+        "jahr": 2020,
+        "trend": "down"
+    },
+    {
+        "land": "China",
+        "unternehmen": "Sinopec",
+        "branche": "Öl & Gas",
+        "emissionen": 210.5,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "Sinopec",
+        "branche": "Öl & Gas",
+        "emissionen": 213.2,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "Sinopec",
+        "branche": "Öl & Gas",
+        "emissionen": 215.8,
+        "jahr": 2023,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "Sinopec",
+        "branche": "Öl & Gas",
+        "emissionen": 216.5,
+        "jahr": 2024,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "State Grid",
+        "branche": "Energie",
+        "emissionen": 175.8,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "State Grid",
+        "branche": "Energie",
+        "emissionen": 182.1,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "State Grid",
+        "branche": "Energie",
+        "emissionen": 186.8,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "China",
+        "unternehmen": "State Grid",
+        "branche": "Energie",
+        "emissionen": 189.4,
+        "jahr": 2023,
+        "trend": "up"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "BASF SE",
+        "branche": "Chemie",
+        "emissionen": 26.4,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "BASF SE",
+        "branche": "Chemie",
+        "emissionen": 24.9,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "BASF SE",
+        "branche": "Chemie",
+        "emissionen": 23.5,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "BASF SE",
+        "branche": "Chemie",
+        "emissionen": 22.8,
+        "jahr": 2023,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "RWE AG",
+        "branche": "Energie",
+        "emissionen": 89.2,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "RWE AG",
+        "branche": "Energie",
+        "emissionen": 84.1,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "RWE AG",
+        "branche": "Energie",
+        "emissionen": 81.3,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "RWE AG",
+        "branche": "Energie",
+        "emissionen": 78.5,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "Volkswagen AG",
+        "branche": "Automobil",
+        "emissionen": 52.1,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "Volkswagen AG",
+        "branche": "Automobil",
+        "emissionen": 48.7,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "Volkswagen AG",
+        "branche": "Automobil",
+        "emissionen": 46.3,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "Volkswagen AG",
+        "branche": "Automobil",
+        "emissionen": 45.2,
+        "jahr": 2023,
+        "trend": "down"
+    },
+    {
+        "land": "Deutschland",
+        "unternehmen": "Volkswagen AG",
+        "branche": "Automobil",
+        "emissionen": 44.5,
+        "jahr": 2024,
+        "trend": "down"
+    },
+    {
+        "land": "Frankreich",
+        "unternehmen": "TotalEnergies",
+        "branche": "Öl & Gas",
+        "emissionen": 62.1,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Frankreich",
+        "unternehmen": "TotalEnergies",
+        "branche": "Öl & Gas",
+        "emissionen": 60.2,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Frankreich",
+        "unternehmen": "TotalEnergies",
+        "branche": "Öl & Gas",
+        "emissionen": 59.1,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Frankreich",
+        "unternehmen": "TotalEnergies",
+        "branche": "Öl & Gas",
+        "emissionen": 58.3,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "Großbritannien",
+        "unternehmen": "BP",
+        "branche": "Öl & Gas",
+        "emissionen": 68.5,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Großbritannien",
+        "unternehmen": "BP",
+        "branche": "Öl & Gas",
+        "emissionen": 66.1,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Großbritannien",
+        "unternehmen": "BP",
+        "branche": "Öl & Gas",
+        "emissionen": 64.9,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Großbritannien",
+        "unternehmen": "BP",
+        "branche": "Öl & Gas",
+        "emissionen": 63.7,
+        "jahr": 2023,
+        "trend": "down"
+    },
+    {
+        "land": "Indien",
+        "unternehmen": "Reliance Industries",
+        "branche": "Öl & Gas",
+        "emissionen": 85.3,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Indien",
+        "unternehmen": "Reliance Industries",
+        "branche": "Öl & Gas",
+        "emissionen": 88.7,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "Indien",
+        "unternehmen": "Reliance Industries",
+        "branche": "Öl & Gas",
+        "emissionen": 90.4,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "Indien",
+        "unternehmen": "Reliance Industries",
+        "branche": "Öl & Gas",
+        "emissionen": 92.1,
+        "jahr": 2023,
+        "trend": "up"
+    },
+    {
+        "land": "Indien",
+        "unternehmen": "Reliance Industries",
+        "branche": "Öl & Gas",
+        "emissionen": 93.5,
+        "jahr": 2024,
+        "trend": "up"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Tokyo Electric",
+        "branche": "Energie",
+        "emissionen": 71.5,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Tokyo Electric",
+        "branche": "Energie",
+        "emissionen": 69.3,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Tokyo Electric",
+        "branche": "Energie",
+        "emissionen": 68.2,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Tokyo Electric",
+        "branche": "Energie",
+        "emissionen": 67.2,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Toyota",
+        "branche": "Automobil",
+        "emissionen": 42.1,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Toyota",
+        "branche": "Automobil",
+        "emissionen": 40.5,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Toyota",
+        "branche": "Automobil",
+        "emissionen": 39.7,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Toyota",
+        "branche": "Automobil",
+        "emissionen": 38.9,
+        "jahr": 2023,
+        "trend": "down"
+    },
+    {
+        "land": "Japan",
+        "unternehmen": "Toyota",
+        "branche": "Automobil",
+        "emissionen": 38.2,
+        "jahr": 2024,
+        "trend": "down"
+    },
+    {
+        "land": "Niederlande",
+        "unternehmen": "Shell",
+        "branche": "Öl & Gas",
+        "emissionen": 76.2,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Niederlande",
+        "unternehmen": "Shell",
+        "branche": "Öl & Gas",
+        "emissionen": 73.8,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Niederlande",
+        "unternehmen": "Shell",
+        "branche": "Öl & Gas",
+        "emissionen": 72.1,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Niederlande",
+        "unternehmen": "Shell",
+        "branche": "Öl & Gas",
+        "emissionen": 71.5,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "Südkorea",
+        "unternehmen": "Hyundai",
+        "branche": "Automobil",
+        "emissionen": 37.5,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "Südkorea",
+        "unternehmen": "Hyundai",
+        "branche": "Automobil",
+        "emissionen": 36.1,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "Südkorea",
+        "unternehmen": "Hyundai",
+        "branche": "Automobil",
+        "emissionen": 35.4,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "Südkorea",
+        "unternehmen": "Hyundai",
+        "branche": "Automobil",
+        "emissionen": 34.8,
+        "jahr": 2023,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "Duke Energy",
+        "branche": "Energie",
+        "emissionen": 95.2,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "Duke Energy",
+        "branche": "Energie",
+        "emissionen": 92.1,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "Duke Energy",
+        "branche": "Energie",
+        "emissionen": 90.5,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "Duke Energy",
+        "branche": "Energie",
+        "emissionen": 88.9,
+        "jahr": 2023,
+        "trend": "stable"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "ExxonMobil",
+        "branche": "Öl & Gas",
+        "emissionen": 115.8,
+        "jahr": 2020,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "ExxonMobil",
+        "branche": "Öl & Gas",
+        "emissionen": 118.2,
+        "jahr": 2021,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "ExxonMobil",
+        "branche": "Öl & Gas",
+        "emissionen": 121.5,
+        "jahr": 2022,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "ExxonMobil",
+        "branche": "Öl & Gas",
+        "emissionen": 120.3,
+        "jahr": 2023,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "ExxonMobil",
+        "branche": "Öl & Gas",
+        "emissionen": 122.8,
+        "jahr": 2024,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "General Motors",
+        "branche": "Automobil",
+        "emissionen": 58.3,
+        "jahr": 2020,
+        "trend": "up"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "General Motors",
+        "branche": "Automobil",
+        "emissionen": 55.1,
+        "jahr": 2021,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "General Motors",
+        "branche": "Automobil",
+        "emissionen": 53.9,
+        "jahr": 2022,
+        "trend": "down"
+    },
+    {
+        "land": "USA",
+        "unternehmen": "General Motors",
+        "branche": "Automobil",
+        "emissionen": 52.7,
+        "jahr": 2023,
+        "trend": "down"
+    }
+]
